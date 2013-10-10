@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{71a8afd4-1b5a-4769-9d72-39ce8074a083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{24ddaa1a-b6f0-434f-8b02-9dc6c09f2a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6abce5ca-361d-4aad-88cd-85fe4db2f41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{246761a2-01b2-4ad9-af27-8e398d2ed5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{cd1903d4-5a98-4c89-8a3a-ddd9f1860716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4becaccb-6830-4c13-8c03-4287ee073379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{0954ac4a-d3c9-4f1a-a09d-156b76fb8504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow_Master.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelTile.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Billboard.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EventSystem.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Model.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\OpenGLApp.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\HashedString.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Shader.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Font.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DevConsole.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Clock.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelEditor.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shadow_Master.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Billboard.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Model.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\OpenGLApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\stb_image.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Font.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DevConsole.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\pugixml.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelEditor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelTile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shadow_Master.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Shadow_Master.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Billboard.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Billboard.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\RenderModel.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\RenderModel.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\LevelTiles.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\LevelTiles.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TerrainGrid.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TerrainGrid.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Text.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Text.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TextCursor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TextCursor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Console.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Console.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Engine\ConsoleCommands.xml">
+      <Filter>Engine</Filter>
+    </Xml>
+    <Xml Include="Game\TileInfos.xml">
+      <Filter>Game</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

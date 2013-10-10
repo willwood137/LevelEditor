@@ -1,0 +1,8 @@
+<TileInfos>
+  <Texture diffuse="terrain.png" tilesPerRow="16"/>
+  <Tile type="Stone" variations="1 2 17 18 20"/>
+  <Tile type="Brick" variations="8"/>
+  <Tile type="Dirt" variations="3"/>
+  <Tile type="Stone Tile" variations="6 7 55"/>
+  <Tile type="Lava" variations="239"/>
+</TileInfos>

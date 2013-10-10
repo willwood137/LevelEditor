@@ -1,0 +1,3 @@
+<ConsoleCommands>
+  <Command name="cammode" event="CamMode" args="Mode" help="sets the camera to a certain mode, 0 = Set camera(default), 1 = FreeLook"/>
+ </ConsoleCommands>

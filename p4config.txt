@@ -1,0 +1,4 @@
+P4PORT=perforce.assembla.com:1666
+P4HOST=shadowmaster
+P4USER=willwood137
+P4CLIENT=ShadowMaster_PC
